@@ -1,0 +1,61 @@
+body {
+padding: 0px;
+margin: 0px;
+background: ('images/body.png');
+background-repeat:repeat;
+}
+
+hr	{
+		margin: 0;
+		padding: 0;
+		border: 2px solid #000;
+}
+
+#main {
+width: 100%;
+}
+
+#header {
+text-align:center;
+background-image: url('images/body.png');
+}
+
+#header p {
+background-repeat: repeat-x;
+}
+
+#side1 {
+width: 180px;
+font-size: 150%;
+border-right: 3px solid #000;
+vertical-align: top;
+}
+
+#side1 tr {
+text-align: center;
+}
+
+
+#menu_pad tr {
+padding-top: 100px;
+}
+
+#side2 {
+text-align: center;
+}
+
+#side3 {
+width: 200px;
+border-left: 3px solid #000;
+vertical-align: top;
+}
+
+#auth_block {
+margin: 8px;
+}
+
+#footer {
+background-color: blue;
+text-align: center;
+font-size: 100%;
+}
